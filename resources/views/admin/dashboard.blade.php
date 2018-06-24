@@ -1,6 +1,45 @@
-@extends('layouts.app')
+@extends('admin.layouts.app_admin')
 
 @section('content')
-<H1>Admin</H1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="jumbotron">
+          <p><span class="badge badge-info">Категорий 0</span></p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="jumbotron">
+          <p><span class="badge badge-info">Материалов 0</span></p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="jumbotron">
+          <p><span class="badge badge-info">Посетителей 0</span></p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="jumbotron">
+          <p><span class="badge badge-info">Сегодня 0</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="" class="btn btn-outline-primary btn-block">Создать категорию</a>
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-heading">Категория первая</h4>
+          <p class="list-group-item-text">Кол-во материалов</p>
+        </a>
+      </div>
+      <div class="col-sm-6">
+        <a href="" class="btn btn-outline-secondary btn-block">Создать материал</a>
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-heading">Материал первый</h4>
+          <p class="list-group-item-text">Категория</p>
+        </a>
+      </div>
+    </div>
+  </div>
 
 @endsection
