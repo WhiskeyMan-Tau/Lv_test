@@ -16,5 +16,5 @@
     @include('admin.categories.partials.form')
   </form>
 </div>
-<?php var_dump($categories);?>
+
 @endsection
